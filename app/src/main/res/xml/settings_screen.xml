@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:textSize= "40px">
+
+    <EditTextPreference
+        android:title="Website to check"
+        android:key="connection_url"
+        android:summary="bsm.corp.transitchicago.com" />
+
+    <EditTextPreference
+        android:title="Wifi Router / Gateway Web Interface IP"
+        android:key="connection_gateway"
+        android:summary="192.168.2.1" />
+
+    <EditTextPreference
+        android:title="WIFI Router / Gateway Web Interface Port  "
+        android:key="connection_port"
+        android:summary="3001" />
+
+        <EditTextPreference
+            android:title="Check Connection Interval : in Seconds"
+            android:key="connection_seconds"
+            android:summary="30" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
